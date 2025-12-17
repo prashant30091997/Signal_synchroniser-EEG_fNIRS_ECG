@@ -227,6 +227,12 @@ Reaction times: Includes each subject's behavioral statistics (accuracy/latency)
 
 edf2eeglab.m: To read ".edf" files, the edf2eeglab.m function is needed. It is extracted from the libraries of EEGLAB.
 
+References:
+1) Pan J, Tompkins WJ. A real-time QRS detection algorithm. IEEE Trans Biomed Eng. 1985 Mar;32(3):230-6
+2) Goldberger AL, Amaral LAN, Glass L, Hausdorff JM, Ivanov PC, Mark RG, et al. PhysioBank, PhysioToolkit, and PhysioNet: components of a new research resource for complex physiologic signals. Circulation [Internet]. 2000 Jun 13 [cited 2025 Dec 17];101(23):e215-20. Available from: https://physionet.org/
+3) Delorme A, Makeig S. EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis. J Neurosci Methods. 2004 Mar 15;134(1):9-21.
+4) Delorme A. EEGLAB [Software]. Swartz Center for Computational Neuroscience; 2025 [cited 2025 Dec 17]. Available from: https://eeglab.org/
+
 Pan-Tompkins: Verify that the folder containing pan_tompkin_ecg.m is used for HR computation.
 
 Custom filter: To apply custom filter, where we can specify type of filter and cut-off frequencies.
